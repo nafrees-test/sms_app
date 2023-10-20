@@ -9,7 +9,7 @@ $message = $_POST['message'];
 
 $ch = curl_init();
 
-curl_setopt($ch, CURLOPT_URL, 'xllxrg.api.infobip.com');
+curl_setopt($ch, CURLOPT_URL, 'https://api.infobip.com/sms/1/text/single');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"from\":\"YourSenderID\",\"to\":\"$to\",\"text\":\"$message\"}");
