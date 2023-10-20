@@ -1,8 +1,8 @@
 <?php
 
-$username = 'nafrees55';
+$username = 'nafrees';
 $password = '0715688986Nr@321';
-$api_key = 'e76c9ce4d18bada10d002925b40503da-a88b3198-4b5c-4e9f-b742-8af8b8c7d85c';
+$api_key = 'f6c492caf34a1a220dbc0816875adb9c-351f92ba-0c21-4816-96bc-524906da3ee5';
 
 $to = $_POST['phone_number'];
 $message = $_POST['message'];
